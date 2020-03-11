@@ -15,13 +15,11 @@ body {
 }
 
 nav {
-  /* text-align: left; */
   display: flex;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
   padding: 0;
-  /* justify-content: space-between; */
 }
 
 .header {
@@ -42,7 +40,6 @@ nav ul {
   padding-left: 1rem;
   padding-right: 1rem;
   align-items: center;
-  /* padding-left: 1rem; */
 }
 
 ul img {
@@ -51,24 +48,13 @@ ul img {
 }
 
 .octodex {
-  /* padding */
   font-weight: 600;
-  /* padding-left: 0rem;
-  padding-right: 1rem; */
   color: #24292e;
 }
 
 .faq {
   padding-left: 1rem;
   padding-right: 0rem;
-}
-
-.twitter {
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
-  /* margin: auto; */
-  /* padding-left: 2rem; */
-  font-size: ;
 }
 
 main {
@@ -83,12 +69,6 @@ main {
   padding-right: 0rem;
 }
 
-*img {
-  padding-top: 0;
-  padding-right: .5em;
-  margin: 0rem;
-}
-
 .images ul {
   list-style: none;
   padding: 0rem;
@@ -100,15 +80,36 @@ main {
   margin: 1rem;
 }
 
-.images p {
-  text-align: left;
+.number {
+  margin-left: 1rem;
+  margin-right: .5rem;
+  color: #586069;
+  font-weight: 400;
 }
 
-.images img {
+li section {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  font-weight: 600;
+}
+
+.minipic img {
+  width: auto;
+  height: 2rem;
+  margin-left: 10rem;
+  margin-right: 1rem;
+  margin-top: 0;
+  border-radius: 10%;
+  justify-content: right;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.big {
   width: auto;
   height: 20rem;
   border-radius: 1.5rem;
-  /* border-width: rem; */
   padding: .75rem;
   border: 1px solid #E1E4E8;
 }
